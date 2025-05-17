@@ -1,4 +1,4 @@
-import styles from "./home.module.css";
+import styles from "./Home.module.css";
 import React from "react";
 
 const Home = () => {

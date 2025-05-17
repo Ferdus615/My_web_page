@@ -1,17 +1,18 @@
+import styles from "./Skills.module.css";
+
 const Skills = () => {
   return (
-    <div className="skills">
-      <h1>Skills</h1>
-      <p>Here are some of my skills:</p>
+    <div className={styles.skills}>
       <ul>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>JavaScript</li>
+        <li>Pyhton</li>
         <li>React</li>
         <li>Node.js</li>
-        <li>CSS</li>
-        <li>HTML</li>
       </ul>
     </div>
   );
-}
+};
 
 export default Skills;
